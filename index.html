@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+</head>
+<body style="background-color: #BFBFBF">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-indigo w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft w3-hover-white w3-hover-text-indigo" style="width:100%;font-size:22px;color:#BFBFBF">Close Menu</a>
+  <div class="w3-container">
+    <img src="La_Cueva_Robotics_Circular.png" width="100px">
+    <h3 class="w3-padding-16" style="color: #BFBFBF"><b>Reference</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-hover-text-indigo" style="color: #BFBFBF">About</a> 
+    <a href="#v1" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-hover-text-indigo" style="color: #BFBFBF">Video 1: Introduction</a> 
+    <a href="#v2" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-hover-text-indigo" style="color: #BFBFBF">Video 2: VEX v5</a> 
+    <a href="#v3" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-hover-text-indigo" style="color: #BFBFBF">Video 3: Physics Background</a> 
+    <a href="#v4" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-hover-text-indigo" style="color: #BFBFBF">Video 4: Basic Mechanisms</a>
+    <a href="#v5" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-hover-text-indigo" style="color: #BFBFBF">Video 5: Building Tips</a>
+    <a href="#v6" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-hover-text-indigo" style="color: #BFBFBF">Video 6: Programming Intro</a>
+    <a href="#v7" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-hover-text-indigo" style="color: #BFBFBF">Video 7: Auton Programming</a>
+    <a href="#v8" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-hover-text-indigo" style="color: #BFBFBF">Video 8: Control Loops</a>
+    <a href="#v9" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white w3-hover-text-indigo" style="color: #BFBFBF">Video 9: Competition Basics</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-indigo w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-indigo w3-margin-right" onclick="w3_open()">☰</a>
+  <span style="color: #BFBFBF"class="w3-monospace">Intro To VEX Robotics</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <div class="w3-container" style="margin-top:80px" id="about">
+    <h1 class="w3-xxxlarge w3-monospace"><b>Intro To VEX Robotics For New Mexico</b></h1>
+    <h1 class="w3-xxlarge w3-text-indigo w3-monospace"><b>About</b></h1>
+    <hr style="width:50px;border:5px solid #3F51B5" class="w3-round">
+    <p style="text-indent: 30px" class="w3-monospace">Hey guys! This is Grant Staten. If you competed at all in VRC in New Mexico from Tower Takeover through Spin Up then you probably already at least know of me. But in case you don't, I'm currently a senior at La Cueva High School and have been a part of La Cueva's robotics program since it started at the beginning of my Freshman year. I was heavily involved in the club my freshman year and have been running La Cueva's robotics program for the last 3 years since then.
+      In VEX robotics there is a huge issue for new teams of just not having available information. I see a lot of teams in New Mexico that have dedicated members and the necessary resources to compete, but are unable to compete at their highest potential level because they don't have information, and these videos aim to help solve that and give never teams resources to help get them started.</p>  
+    <p style="text-indent: 30px" class="w3-monospace">Also I know a quite a bit about VEX robotics, but not much about making good videos, they aren't going to be nicely edited or anything, may be slow or fast,  and honestly a lot of them ended up just being me rambling about the video's topic by the end. So feel free to put me on 1.5x speed or pause and play or whatever you want as you go through these.
+    </p>
+    </div>
+
+  <div class="w3-container" id="v1" style="margin-top:30px">
+    <h1 class="w3-xlarge w3-text-indigo w3-monospace"><b>Video 1: Introduction, 4 Branches for VEX, and the Engineering Design Process</b></h1>
+    <hr style="width:50px;border:5px solid #3F51B5" class="w3-round">
+    <p class="w3-monospace">Basic overview of VEX, what you'll be doing, and things to keep in mind as you design your robot!</p>
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/uG6RZTFI8sg"></iframe>
+  </div>
+
+  <div class="w3-container" id="v2" style="margin-top:30px">
+    <h1 class="w3-xlarge w3-text-indigo w3-monospace"><b>Video 2: The VEX V5 Architecture</b></h1>
+    <hr style="width:50px;border:5px solid #3F51B5" class="w3-round">
+    <p class="w3-monospace">Overview of the parts you will use to construct your robot!</p>
+    <p class="w3-monospace">Part 1 - Electronics:</p>
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/3MJyM8EtSeY"></iframe>
+    <p class="w3-monospace">Part 2 - Mechanics:</p>
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/goEdGb0OoPs"></iframe>
+  </div>
+  
+  <div class="w3-container" id="v3" style="margin-top:30px">
+    <h1 class="w3-xlarge w3-text-indigo w3-monospace"><b>Video 3: Basic Physics Background</b></h1>
+    <hr style="width:50px;border:5px solid #3F51B5" class="w3-round">
+    <p class="w3-monospace">Overview of some basic physics concepts to keep in mind while building and troubleshooting your robot!</p>
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/51cjekyhTJE"></iframe>
+  </div>
+  
+  <div class="w3-container" id="v4" style="margin-top:30px">
+    <h1 class="w3-xlarge w3-text-indigo w3-monospace"><b>Video 4: Basic Mechanisms</b></h1>
+    <hr style="width:50px;border:5px solid #3F51B5" class="w3-round">
+    <p class="w3-monospace">Overview of the common mechnisms used in VEX robotics!</p>
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/oevTFKtK3ZU"></iframe>
+  </div>
+  
+  <div class="w3-container" id="v5" style="margin-top:30px">
+    <h1 class="w3-xlarge w3-text-indigo w3-monospace"><b>Video 5: Good Building Practices</b></h1>
+    <hr style="width:50px;border:5px solid #3F51B5" class="w3-round">
+    <p class="w3-monospace">Things to keep in mind to build a high quality robot!</p>
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/YQtxwilvz7o"></iframe>
+  </div>
+  
+  <div class="w3-container" id="v6" style="margin-top:30px">
+    <h1 class="w3-xlarge w3-text-indigo w3-monospace"><b>Video 6: Programming Introduction</b></h1>
+    <hr style="width:50px;border:5px solid #3F51B5" class="w3-round">
+    <p class="w3-monospace">Coming soon</p>
+    <!--<iframe width="420" height="315" src=""></iframe>-->
+  </div>
+  
+  <div class="w3-container" id="v7" style="margin-top:30px">
+    <h1 class="w3-xlarge w3-text-indigo w3-monospace"><b>Video 7: Basic Autonomous Programming</b></h1>
+    <hr style="width:50px;border:5px solid #3F51B5" class="w3-round">
+    <p class="w3-monospace">Coming soon</p>
+    <!--<iframe width="420" height="315" src=""></iframe>-->
+  </div>
+  
+  <div class="w3-container" id="v8" style="margin-top:30px">
+    <h1 class="w3-xlarge w3-text-indigo w3-monospace"><b>Video 8: Control Loops Introduction</b></h1>
+    <hr style="width:50px;border:5px solid #3F51B5" class="w3-round">
+    <p class="w3-monospace">Coming soon</p>
+    <!--<iframe width="420" height="315" src=""></iframe>-->
+  </div>
+  
+  <div class="w3-container" id="v9" style="margin-top:30px">
+    <h1 class="w3-xlarge w3-text-indigo w3-monospace"><b>Video 9: What to know for your first competition</b></h1>
+    <hr style="width:50px;border:5px solid #3F51B5" class="w3-round">
+    <p class="w3-monospace">Coming soon</p>
+    <!--<iframe width="420" height="315" src=""></iframe>-->
+  </div>
+
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
